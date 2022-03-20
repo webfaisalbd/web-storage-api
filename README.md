@@ -79,3 +79,25 @@ console.log(countryList);
 
 ---
 
+
+
+
+
+#### `clear()` 
+```javascript
+
+// clear localStorage 
+localStorage.clear();
+```
+
+---
+
+
+
+
+
+
+
+
+
+

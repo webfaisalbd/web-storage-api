@@ -38,3 +38,7 @@ localStorage.setItem('countryName',JSON.stringify(countries));
 // array getItem
 const countryList=JSON.parse(localStorage.getItem("countryName"));
 console.log(countryList);
+
+
+// clear localStorage 
+localStorage.clear();
