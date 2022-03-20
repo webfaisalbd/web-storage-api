@@ -60,3 +60,22 @@ localStorage.removeItem("password");
 
 ---
 
+
+#### `array setItem getItem` 
+```javascript
+
+// array setItem
+// variable:countries
+// key: countryName
+// value: countries
+
+const countries=['Bangladesh','Australia','Thailand','Germany'];
+localStorage.setItem('countryName',JSON.stringify(countries));
+
+// array getItem
+const countryList=JSON.parse(localStorage.getItem("countryName"));
+console.log(countryList);
+```
+
+---
+
