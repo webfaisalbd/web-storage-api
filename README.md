@@ -94,6 +94,23 @@ localStorage.clear();
 
 
 
+#### `object setItem getItem` 
+```javascript
+
+
+// object setItem
+const users={name:'Faisal',id:'1'};
+localStorage.setItem('users',JSON.stringify(users));
+
+// object getItem
+const userId= JSON.parse(localStorage.getItem('users'));
+console.log(userId);
+
+
+
+```
+
+---
 
 
 
